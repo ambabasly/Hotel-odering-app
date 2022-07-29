@@ -15,6 +15,7 @@ const Homepage = () => {
   const [currentAction, setCurrentAction] = useState<null | string>(null)
 
   const openModal = (value: any) => {
+    setVisible(true)
     setCurrentlyEditing(value)
   }
 
